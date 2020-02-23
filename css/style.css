@@ -8,6 +8,23 @@ body {
 	line-height: 1.7;
 }
 
+h1, .lead {
+	animation-name: example;
+	animation-duration: 7s;
+	animation-delay: -2s;
+	animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes example {
+	from {opacity:0;}
+	to {opacity:1;
+	text-shadow: 2px 2px 20px #fff;}
+  }
+
+@keyframes {
+
+}
+
 /* font */
 
 h3 {
@@ -42,7 +59,7 @@ h6 {
 
 li.nav-item {
 	text-align: center;
-	min-width: 8vw;
+	min-width: 7vw;
 }
 
 .navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
@@ -85,7 +102,7 @@ li.nav-item {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 0px !important;
-	padding-top: 9em;
+	padding-top: 11em;
 }
 
 /* jumbotron button */
@@ -93,11 +110,11 @@ li.nav-item {
 #mypic {
 	height: 250px;
 	width: auto;
-	padding: 1em 0;
+	padding: 0.25em 0;
 }
 
 #attention {
-	margin-top: 2em;
+	margin-top: 2em 0.5em;
 	color: #fff;
 	background:#000;
 }
@@ -222,6 +239,10 @@ span.closeButton {
 	.navbar-nav {
 		background: var(--primary-pink);
 	}
+
+	.coverimg {
+		padding-top: 8em;
+	}
 }
 
 @media (min-width: 768px) {
@@ -233,6 +254,9 @@ span.closeButton {
 @media (min-width: 1200px) {
 	.coverimg {
 		height: 100vh;
+	}
+	.coverimg {
+		padding-top: 11em;
 	}
 }
 
