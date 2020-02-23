@@ -81,7 +81,7 @@ li.nav-item {
 
 .coverimg {
 	background-color: var(--primary-pink);
-	background-image: url('/img/taustv7.png');
+	background-image: url('./img/taustv7.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 0px !important;
