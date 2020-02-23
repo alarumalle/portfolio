@@ -1,0 +1,238 @@
+:root {
+	--primary-pink:#d94e55;
+	--button-pink:#c22939;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	background: #050100 !important;
+	line-height: 1.7;
+}
+
+/* font */
+
+h3 {
+	margin-bottom: 0.5em;
+	margin-top: 0.25em;
+	padding: 0.75em 0;
+}
+
+h6 {
+	color: #fff;
+}
+
+/* buttons */
+.btn.btn-light {
+	background: #fff !important;
+    color: var(--button-pink);
+}
+
+.btn.btn-light:hover {
+	box-shadow: 0px 0px 9px 4px var(--primary-pink);
+	background: #fff !important;
+	color: var(--button-pink) !important;
+}
+
+#navbar {
+	text-transform: uppercase;
+}
+
+#navbar.scrolled {
+	background: var(--primary-pink) !important;
+}
+
+li.nav-item {
+	text-align: center;
+	min-width: 8vw;
+}
+
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav > li > a:focus {
+    background-color: #fff;
+	color: var(--button-pink);
+	border-radius: 3px;
+}
+
+.navbar .navbar-nav > li > a, .navbar .navbar-nav > li > a {
+	color: #ffffff;
+}
+
+.navbar-collapse {
+	flex-grow: 0;
+}
+
+.active {
+	color: var(--button-pink) !important;
+	background-color: #000 !important;
+	border-radius: 3px;
+}
+
+/* logo area */
+
+#logo {
+	width: 2.85em;
+	margin-right: 0.75em;
+	float: left;
+}
+
+.navbar-brand {
+	color: #fff;
+}
+
+/* jumbotron */
+
+.coverimg {
+	background-color: var(--primary-pink);
+	background-image: url('/img/taustv7.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 0px !important;
+	padding-top: 9em;
+}
+
+/* jumbotron button */
+
+#mypic {
+	height: 250px;
+	width: auto;
+	padding: 1em 0;
+}
+
+#attention {
+	margin-top: 2em;
+	color: #fff;
+	background:#000;
+}
+
+#attention:hover {
+	box-shadow: 0px 0px 9px 4px #de445b;
+	background: #fff !important;
+	color: rgb(194, 41, 57) !important;
+}
+
+.text-center {
+	color: rgb(255, 255, 255);
+}
+
+p {
+	color: rgb(255, 255, 255);
+}
+
+.lead {
+	letter-spacing: 1.5px;
+}
+
+/* about */
+
+#about_, #projects_ {
+	margin-bottom: 1em; 
+	margin-top: 2em;
+}
+
+.final {
+	letter-spacing: 1.5px;
+}
+
+/* skills, progress bars */
+
+.progress-bar {
+	color: #000 !important;
+}
+
+.dev {background: #2938c2 !important;}
+.fra {background: var(--button-pink) !important;}
+.gra {background: #39c229 !important;}
+
+h5.skills {
+	color: #000 !important;
+}
+
+/* projects */
+
+.thumb {
+	height: 20em;
+	object-fit: cover;
+	border-radius: 3px;
+}
+
+.thumb:hover {
+	filter: grayscale();
+	cursor: pointer;
+}
+
+/* project modals */
+.modal{
+	overflow: auto !important;
+	background: rgba(0,0,0,0.5);
+}
+
+.modal-dialog {
+	max-width: 1000px;
+}
+
+.modal-content {
+	padding: 20px;
+	box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.18);
+}
+
+.modal-header {
+	background: var(--primary-pink);
+}
+
+h5.modal-title {
+	color: #fff;
+}
+
+p.modal-par, .modal-text {
+	padding: 0 10px;
+	color: #000;
+}
+
+span.closeButton {
+	padding-top: 0;
+    color: #9e9e9e;
+    font-size: 2vw;
+}
+
+.closeButton:hover, .closeButton:focus {
+	color:#000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-img {
+	height: 20em;
+	width: 20em;
+	object-fit: cover;
+}
+
+
+/* footer */
+#footer {
+	overflow: hidden;
+}
+
+#footer p {
+	padding-top: 0.75em;
+}
+
+  
+
+/* media queries */
+
+@media (min-width: 576px) {
+	.navbar-nav {
+		background: var(--primary-pink);
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+		background: transparent;
+	}
+}
+
+@media (min-width: 1200px) {
+	.coverimg {
+		height: 100vh;
+	}
+}
+
