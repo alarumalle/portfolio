@@ -101,19 +101,19 @@ li.nav-item {
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-top: 0px !important;
-	padding-top: 9em;
+	padding-top: 4em;
 }
 
 /* jumbotron button */
 
 #mypic {
-	height: 250px;
+	height: 230px;
 	width: auto;
-	padding: 0.25em 0;
+	padding: 0 0 0.2em 0;
 }
 
 #attention {
-	margin-top: 2em 0.5em;
+	margin-top: 2em 1.5em;
 	color: #fff;
 	background:#000;
 }
@@ -240,7 +240,7 @@ span.closeButton {
 	}
 
 	.coverimg {
-		padding-top: 8em;
+		padding-top: 2em;
 	}
 }
 
@@ -248,14 +248,23 @@ span.closeButton {
 	.navbar-nav {
 		background: transparent;
 	}
+	.coverimg {
+		padding-top: 5em;
+	}
 }
 
 @media (min-width: 1200px) {
 	.coverimg {
-		height: 100vh;
+		padding-top: 6em;
 	}
+
+}
+
+@media (min-width: 1400px) {
 	.coverimg {
-		padding-top: 11em;
+		height: 100vh;
+		padding-top: 8em;
 	}
+
 }
 
