@@ -159,6 +159,7 @@ h5.skills {
 }
 
 /* project modals */
+
 .modal{
 	overflow: auto !important;
 	background: rgba(0,0,0,0.5);
@@ -199,9 +200,10 @@ span.closeButton {
 }
 
 .modal-img {
-	height: 20em;
+	/* height: 20em; */
 	width: 20em;
 	object-fit: cover;
+	max-width: 80vw;
 }
 
 
@@ -218,13 +220,21 @@ span.closeButton {
 
 /* media queries */
 
-@media (min-width: 576px) {
+@media (min-width: 276px) {
 	.navbar-nav {
 		background: var(--primary-pink);
 	}
 
 	.coverimg {
-		padding-top: 2em;
+		padding-top: 4em;
+	}
+
+	.modal-body {
+		flex-direction: column;
+	}
+
+	.modal-text {
+		margin-top: 0.75em;
 	}
 }
 
@@ -234,6 +244,14 @@ span.closeButton {
 	}
 	.coverimg {
 		padding-top: 5em;
+	}
+
+	.modal-body {
+		flex-direction: row;
+	}
+
+	.modal-text {
+		margin-top: 0em;
 	}
 }
 
