@@ -137,9 +137,9 @@ p {
 	color: #000 !important;
 }
 
-.dev {background: #2938c2 !important;}
-.fra {background: var(--button-pink) !important;}
-.gra {background: #39c229 !important;}
+.dev {background: var(--primary-pink) !important;}
+.fra {background: var(--primary-pink) !important;}
+.gra {background: var(--primary-pink) !important;}
 
 h5.skills {
 	color: #000 !important;
